@@ -1,0 +1,105 @@
+SQL Practice Questions
+
+🔹 Basic (10 Questions)
+
+1) Select all employees from the employees table.
+2) Retrieve the names and salaries of all employees.
+3) Find the total number of employees.
+4) Select all customers who joined after 2021.
+5) Retrieve orders placed in 2023.
+6) Find the highest salary in the employees table.
+7) Get all employees working in the HR department.
+8) Count the number of orders for each customer.
+9) Find customers from Chicago.
+10) Display the details of employees earning more than 50,000.
+
+🔹 Intermediate (10 Questions)
+
+1) Find the average salary of employees per department.
+2) List employees sorted by hire date.
+3) Find the total order amount for each customer.
+4) Retrieve employees who were hired in the last 5 years.
+5) Find the top 3 highest-paid employees.
+6) Get the second-highest salary from the employees table.
+7) Display customers who placed an order worth more than 500.
+8) Count the number of employees in each department.
+9) Retrieve orders placed in the last 6 months.
+10) Find employees whose names start with 'A' or 'E'.
+
+🔹 Joins (10 Questions)
+
+Basic
+
+1) Get all employees along with their department names.
+2) List all orders with the customer names.
+3) Retrieve employees who belong to the IT department.
+4) Show all customers who have placed an order.
+5) Find orders placed by customers from New York.
+
+Intermediate
+
+6) Get the total salary paid per department.
+7) Find customers who have never placed an order.
+8) List employees along with their department, sorted by salary.
+9) Find the total number of orders per city.
+10) Show employees working in Finance who earn above 70,000.
+
+Advanced
+
+11) Find the department with the highest average salary.
+12) Get customers who placed the most expensive order.
+13) Retrieve employees who are earning more than their department’s average salary.
+14) Find the city that generated the most revenue from orders.
+15) Display departments with fewer than 2 employees.
+
+🔹 Window Functions (10 Questions)
+
+Basic
+
+1) Rank employees by salary.
+2) Get the cumulative sum of salaries.
+3) Find the difference between each employee’s salary and the department average.
+4) Rank customers by the total order amount.
+5) Show each order amount along with the running total.
+
+Intermediate
+
+6) Find employees hired most recently per department.
+7) Calculate a moving average of order amounts.
+8) Rank employees based on salary within their department.
+9) Find the highest salary in each department without using GROUP BY.
+10) Get the difference in days between each order.
+
+Advanced
+
+11) Calculate a rolling sum of order amounts over the last 3 orders.
+12) Show employees along with their previous salary.
+13) Find employees who got the highest salary increase.
+14) Get the difference between each employee's salary and the next highest salary.
+15) Find customers whose spending increased compared to their last order.
+
+🔹 Subqueries (10 Questions)
+
+Basic
+
+1) Find employees who earn more than the average salary.
+2) List customers who placed an order worth more than 500.
+3) Get employees who work in the largest department.
+4) Find customers who have never placed an order.
+5) Get orders that are above the average order amount.
+
+Intermediate
+
+6) Find employees who have the highest salary in their department.
+7) Get customers who placed more than 2 orders.
+8) Find the department with the most employees.
+9) Retrieve employees who joined before their department head.
+10) Show the top 3 highest-paid employees without using LIMIT.
+
+Advanced
+
+11) Get employees who earn more than their manager.
+12) Find customers who placed consecutive high-value orders.
+13) Retrieve employees who have a salary within 10% of the highest salary.
+14) Find employees whose salary is higher than the department's median salary.
+15) Get the percentage of total sales contributed by each customer.
